@@ -1,6 +1,6 @@
 ## dom-select
 
-DOM Selector Library [With Fallback Support](http://npmjs.org/qwery)
+DOM Selector Library. ([With Fallback Support](http://npmjs.org/qwery), in v0.x.x versions)
 
 ```js
 var select = require('select-dom')
