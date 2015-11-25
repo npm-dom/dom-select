@@ -8,5 +8,6 @@ function one (selector, parent) {
 
 function all (selector, parent) {
   parent || (parent = document);
-  return parent.querySelectorAll(selector);
+  var selection = parent.querySelectorAll(selector);
+  return  Array.prototype.slice.call(selection);
 }
