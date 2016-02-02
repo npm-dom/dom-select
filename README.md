@@ -3,7 +3,7 @@
 DOM Selector Library. ([With Fallback Support](http://npmjs.org/qwery), in v0.x.x versions)
 
 ```js
-var select = require('select-dom')
+var select = require('dom-select')
 
 select('.foo a[href=bar]')
 // => [Element]
