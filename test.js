@@ -1,7 +1,5 @@
-var test = require('prova');
+var test = require('tape');
 var select = require("./");
-var qs = document.querySelector;
-var qsAll = document.querySelectorAll;
 
 document.body.innerHTML = '<ul><li>Foo</li><li>Bar</li><li>Qux</li></ul>';
 
